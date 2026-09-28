@@ -6,10 +6,10 @@ A learning project exploring **Jev typed decisions + mocked frontier-LLM draftin
 
 See [Build, test, and run](docs/build-and-run.md) for prerequisites, Windows setup, expected output, real-Jev configuration, and troubleshooting.
 
-There is no compilation, dependency installation, or server to start. With Python 3.10+ installed, open PowerShell in the project directory and verify the application:
+There is no compilation, dependency installation, or server to start. With Python 3.10+ installed, open PowerShell in the directory containing your checkout and verify the application:
 
 ```powershell
-Set-Location 'C:\Users\16122\learn\jev-playground'
+Set-Location ./jev-playground
 python --version
 python -m unittest discover -s tests -v
 python -m support_lab run --ticket T01

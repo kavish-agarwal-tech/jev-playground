@@ -11,13 +11,15 @@ No Node.js, npm, Docker, database, third-party Python packages, or frontier-mode
 
 ## 2. Open the project
 
+From the directory containing your checkout:
+
 ```powershell
-Set-Location 'C:\Users\16122\learn\jev-playground'
+Set-Location ./jev-playground
 python --version
 python -m support_lab --help
 ```
 
-If your checkout is elsewhere, substitute its directory. Run all subsequent commands from that root directory. If Windows recognizes `py` but not `python`, use `py -3` instead of `python` throughout and confirm it selects Python 3.10 or newer.
+If your checkout has a different name, substitute that directory name. If you are already in the project root, skip `Set-Location`. Run all subsequent commands from that root directory. If Windows recognizes `py` but not `python`, use `py -3` instead of `python` throughout and confirm it selects Python 3.10 or newer.
 
 An isolated environment is optional because there are no dependencies to install:
 
