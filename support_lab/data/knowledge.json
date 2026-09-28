@@ -1,0 +1,12 @@
+[
+  {"id":"KB01","category":"exports","title":"Export failures","body":"Collect the report ID, export format, timestamp, and visible error. Try exporting a small report to isolate the scope."},
+  {"id":"KB02","category":"exports","title":"Large report export","body":"For large reports, try a shorter date range or CSV format. Preserve the original report and record whether the smaller export succeeds."},
+  {"id":"KB03","category":"authentication","title":"Login troubleshooting","body":"Check the workspace URL and record the sign-in error. Ask whether password sign-in or SSO is affected. Never request passwords or recovery codes."},
+  {"id":"KB04","category":"authentication","title":"Team SSO failures","body":"Ask an administrator to check identity-provider status and recent configuration changes. Collect a timestamp and request ID without collecting credentials."},
+  {"id":"KB05","category":"billing","title":"Invoice questions","body":"Collect the invoice identifier and billing period. A billing reviewer must verify charges before promising any adjustment."},
+  {"id":"KB06","category":"billing","title":"Duplicate charge reports","body":"Ask for the invoice identifiers and charge dates, excluding full card details. Refer potential duplicates to billing review; do not promise a refund."},
+  {"id":"KB07","category":"integrations","title":"Integration sync failures","body":"Collect the integration name, last successful sync time, and sanitized error. Check whether authorization expired before recommending reconnection."},
+  {"id":"KB08","category":"integrations","title":"Webhook delivery","body":"Collect a delivery identifier and HTTP status code. Check the receiving endpoint logs and retry policy without sharing signing secrets."},
+  {"id":"KB09","category":"other","title":"Support intake","body":"Ask which product feature is affected, what was expected, what happened, and when the issue began."},
+  {"id":"KB10","category":"other","title":"Incident intake","body":"Collect the number of affected users, scope of blocked work, and any workaround. Treat a suspected release regression as a hypothesis until verified."}
+]

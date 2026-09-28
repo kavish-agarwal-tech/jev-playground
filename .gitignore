@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+trace*.json
+.env
+.env.*
+!.env.example

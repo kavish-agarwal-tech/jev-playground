@@ -1,0 +1,14 @@
+[
+ {"id":"T01","split":"dev","text":"Since yesterday's release our entire team can't export reports. We have a customer presentation in two hours.","category":"exports","urgent":true},
+ {"id":"T02","split":"dev","text":"Where can I download the invoice for last month?","category":"billing","urgent":false},
+ {"id":"T03","split":"dev","text":"Our integration sync has a warning but still works.","category":"integrations","urgent":false},
+ {"id":"T04","split":"dev","text":"Something is wrong. Please help.","category":"other","urgent":false},
+ {"id":"T05","split":"dev","text":"Nobody can login using SSO. All users are blocked.","category":"authentication","urgent":true},
+ {"id":"T06","split":"dev","text":"Urgent: I need an invoice before my meeting today. Everything still works.","category":"billing","urgent":true},
+ {"id":"T07","split":"test","text":"Export is slow for large reports, but a smaller date range still works.","category":"exports","urgent":false},
+ {"id":"T08","split":"test","text":"The webhook endpoint returns an error. Our entire team is blocked.","category":"integrations","urgent":true},
+ {"id":"T09","split":"test","text":"How do I reset my password for login?","category":"authentication","urgent":false},
+ {"id":"T10","split":"test","text":"I see a duplicate charge on my invoice. Can someone investigate?","category":"billing","urgent":false},
+ {"id":"T11","split":"test","text":"It broke again after that thing changed.","category":"other","urgent":false},
+ {"id":"T12","split":"test","text":"I cannot export and need the report for a deadline today.","category":"exports","urgent":true}
+]
